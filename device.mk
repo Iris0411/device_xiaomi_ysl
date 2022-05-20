@@ -32,6 +32,10 @@ PRODUCT_PACKAGES += \
     camera.msm8953 \
     libmm-qcamera
 
+# GcamGOPrebulit-V2
+PRODUCT_PACKAGES += \
+    GCamGOPrebuilt-V2
+
 # Fingerprint
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1-service.xiaomi_msm8953-32
