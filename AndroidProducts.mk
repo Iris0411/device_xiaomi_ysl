@@ -5,10 +5,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/blaze_ysl.mk
+    $(LOCAL_DIR)/cherish_ysl.mk
 
 COMMON_LUNCH_CHOICES := \
-    blaze_ysl-user \
-    blaze_ysl-userdebug \
-    blaze_ysl-eng
+    cherish_ysl-user \
+    cherish_ysl-userdebug \
+    cherish_ysl-eng
 
