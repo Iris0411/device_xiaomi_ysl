@@ -5,10 +5,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/blaze_ysl.mk
+    $(LOCAL_DIR)/lineage_ysl.mk
 
 COMMON_LUNCH_CHOICES := \
-    blaze_ysl-user \
-    blaze_ysl-userdebug \
-    blaze_ysl-eng
+    lineage_ysl-user \
+    lineage_ysl-userdebug \
+    lineage_ysl-eng
 
