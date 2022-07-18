@@ -9,22 +9,22 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
-# Inherit some common Project Blaze stuff.
-$(call inherit-product, vendor/blaze/config/common_full_phone.mk)
+# Inherit some common PE stuff.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Inherit from ysl device
 $(call inherit-product, device/xiaomi/ysl/device.mk)
 
-# Inherit some common Project Blaze flags
-TARGET_BOOT_ANIMATION_RES := 720
+# Feature Flags
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+TARGET_INCLUDE_STOCK_ACORE := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
-BLAZE_BUILD_TYPE := OFFICIAL
-BLAZE_MAINTAINER := Iris
-TARGET_USE_PIXEL_CHARGER := true
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := ysl
-PRODUCT_NAME := blaze_ysl
+PRODUCT_NAME := aosp_ysl
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi S2

@@ -13,7 +13,7 @@ DEVICE_PATH := device/xiaomi/ysl
 TARGET_SCREEN_DENSITY := 320
 
 # Kernel
-TARGET_KERNEL_CONFIG := ysl_defconfig
+TARGET_KERNEL_CONFIG := ysl-perf_defconfig
 
 # Partitions
 BOARD_CACHEIMAGE_PARTITION_SIZE := 268435456

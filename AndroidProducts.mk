@@ -5,10 +5,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/blaze_ysl.mk
+    $(LOCAL_DIR)/aosp_ysl.mk
 
 COMMON_LUNCH_CHOICES := \
-    blaze_ysl-user \
-    blaze_ysl-userdebug \
-    blaze_ysl-eng
+    aosp_ysl-user \
+    aosp_ysl-userdebug \
+    aosp_ysl-eng
 
